@@ -32,15 +32,13 @@ h1{
     top: 15%;
     z-index: 99
 }
-h6{
-  color: white;
-  font-family: 'Nova Square';
-  position: absolute;
-  z-index: 199;
-  left: 35%;
-
-}
 img{
+  text-align: center;
+  height: 100%;
+  z-index: 199;
+  background: rgba(255,255,255,0.8)
+}
+.image-box{
   position: fixed;
   height: 60%;
   /*width: auto;*/
@@ -50,7 +48,7 @@ img{
   transform: translate(-50%, -50%);
 
   z-index: 199;
-  background: rgba(255,255,255,0.8)
+
 }
 .row-not-row{
   width: 100%;
@@ -64,11 +62,21 @@ img{
 .col-left{
   background: blue;
   /*background: rgba(21, 2, 2, 0.9);*/
-  background: rgba(21, 2, 2, 0.1);
+  background: rgba(21, 2, 2, 0.2);
   text-align: center;
   transform: skewX(-30deg);
 }
-
+.description{
+  /*background: yellow;*/
+  position: relative;
+  bottom: 30px;
+  text-transform: uppercase;
+  font-family: 'Nova Square';
+  padding: 30px;
+}
+.email{
+  font-size: .7rem
+}
 
 
 
