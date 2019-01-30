@@ -73,9 +73,17 @@ img{
   text-transform: uppercase;
   font-family: 'Nova Square';
   padding: 30px;
+  transition: .4s;
+
+}
+.description *:hover{
+  filter: invert(50%);
+  cursor: pointer;
+  transition: 1s;
+  /*text-shadow:  0px 0px 13px pink;*/
 }
 .email{
-  font-size: .7rem
+  font-size: .6rem
 }
 
 
